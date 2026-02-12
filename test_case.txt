@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------
+TEST CASE 1: Successful Operations (Square Matrices & 3D Vectors)
+-------------------------------------------------------------------------
+
+--- Matrix Operations ---
+
+[Input for Matrix A]
+Enter rows for Matrix A: 2
+Enter cols for Matrix A: 2
+Enter element [0][0]: 4
+Enter element [0][1]: 3
+Enter element [1][0]: 2
+Enter element [1][1]: 1
+
+[Input for Matrix B]
+Enter rows for Matrix B: 2
+Enter cols for Matrix B: 2
+Enter element [0][0]: 1
+Enter element [0][1]: 2
+Enter element [1][0]: 1
+Enter element [1][1]: 3
+
+[Input for Scalar]
+Enter a number for scalar multiplication: 2
+
+--- Results ---
+
+1. A + B:
+5   5   
+3   4   
+
+2. A - B:
+3   1   
+1   -2  
+
+3. A * B:
+7   17  
+3   7   
+
+4. Scalar * A (2 * A):
+8   6   
+4   2   
+
+5. Scalar * B (2 * B):
+2   4   
+2   6   
+
+6. Transpose A:
+4   2   
+3   1   
+
+7. Transpose B:
+1   1   
+2   3   
+
+8. Determinant A: -2
+9. Determinant B: 1
+
+10. Inverse A:
+-0.5  1.5   
+1     -2    
+
+11. Inverse B:
+3     -2    
+-1    1     
+
+-------------------------------------------------------------------------
+
+--- Vector Operations ---
+
+[Input for Vector V1]
+Enter size of Vector V1: 3
+Enter element [0]: 1
+Enter element [1]: 0
+Enter element [2]: 0
+
+[Input for Vector V2]
+Enter size of Vector V2: 3
+Enter element [0]: 0
+Enter element [1]: 1
+Enter element [2]: 0
+
+[Input for Scalar]
+Enter a number for scalar multiplication: 5
+
+--- Results ---
+
+1. V1 + V2: [ 1 1 0 ]
+2. V1 - V2: [ 1 -1 0 ]
+3. Dot Product (V1 . V2): 0
+4. Cross Product (V1 x V2): [ 0 0 1 ]
+5. Scalar * V1: [ 5 0 0 ]
+6. Scalar * V2: [ 0 5 0 ]
+7. Magnitude V1: 1
+8. Magnitude V2: 1
+9. Normalized V1: [ 1 0 0 ]
+10. Normalized V2: [ 0 1 0 ]
+
+-------------------------------------------------------------------------
+END OF TEST
