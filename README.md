@@ -7,7 +7,7 @@
 A comprehensive C++ library for performing linear algebra operations. This project was developed as a university term project to demonstrate the implementation of complex mathematical algorithms (such as recursive determinants and matrix inversion) using standard C++ without external libraries.
 
 ## 📂 Repository Structure
-```text
+
 📦 Matrix-Vector-Project
  ┣ 📜 matrix_library.h      # Header file (Structs & Prototypes)
  ┣ 📜 matrix_library.cpp    # Core logic implementation
@@ -55,7 +55,7 @@ g++ demonstration.cpp matrix_library.cpp -o matrix_app
 2. Run:
 *   Windows:
 
-```bash
+
     matrix_app.exe
 Linux / macOS:
     ./matrix_app
